@@ -5,7 +5,7 @@ import streamlit as st
 import os
 
 
-daydf = pd.read_csv(os.path.join(os.getcwd(), "data", "daydf.csv")) 
+daydf = pd.read_csv(os.path.join(os.getcwd(), "Dashboard", "daydf.csv")) 
 
 def trend_by_year(df):
     trend_by_year = df.groupby(by='yr').agg({
