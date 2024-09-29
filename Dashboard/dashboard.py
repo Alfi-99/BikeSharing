@@ -60,7 +60,7 @@ def by_workingday(df):
     return by_workingday
 
 with st.sidebar:
-    st.image("city-bike.png")
+    st.image("Dashboard/city-bike.png")
     
 
 st.title("Bike Sharing Analysis")
